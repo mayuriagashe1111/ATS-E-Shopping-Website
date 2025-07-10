@@ -79,9 +79,9 @@ WSGI_APPLICATION = 'ecommercee.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'ats_e_shoppingdb',
-        'USER' : 'root',
-        'PASSWORD' : '220601',
+        'NAME': 'databasename',
+        'USER' : 'username',
+        'PASSWORD' : 'password',
     
     }
 }
@@ -147,8 +147,8 @@ DEBUG = True
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'mayuriagashe2001@gmail.com'
-EMAIL_HOST_PASSWORD = 'gxiedjinfclzwnvr'
+EMAIL_HOST_USER = 'username@gmail.com'
+EMAIL_HOST_PASSWORD = 'apppasword'
 EMAIL_USE_TLS = True,
 
 LOGIN_URL = '/login/'
